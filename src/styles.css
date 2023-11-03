@@ -142,7 +142,6 @@ section {
   animation-delay: 2s;
 }
 
-
 .home-content p {
   font-size: 1.6rem;
   margin: 2rem 0 4rem;
@@ -514,7 +513,6 @@ education-row .education-column {
   border-radius: 1rem;
 }
 
-
 .projects .galery .proyect .overlay {
   position: absolute;
   top: 0;
@@ -557,43 +555,35 @@ education-row .education-column {
 
 }
 
-
-.projects .galery .proyect .overlay a {
+.home-sci2 {
   position:absolute;
+  bottom: 1rem;
+  padding: .8rem;
+  width: 100%;
   display: flex;
-  top: 0;
-  padding: 6rem;
-  right: -200px;
-  justify-content: center;
-  align-items: center;
-  background: var(--text-color);
-
+  justify-content:end;
+  gap:1rem;
  
 }
 
-.projects .galery .proyect .btn-box{
-  position: absolute;
-  bottom: 4rem;
-  width: 170px;
-  display: flex;
-  justify-content: center;
-}
-
-.projects .galery .proyect .overlay a{
-  position: absolute;
-  display: flex;
+.home-sci2 a {
+  position: relative;
+  display:inline-flex;
   justify-content: center;
   align-items: center;
   width: 30px;
   height: 30px;
   background: transparent;
-  font-size: 20px;
-  color:var(--text-color);
+  border: 0.2rem solid var(--text-color);
+  border-radius: 50%;
+  font-size: 18px;
+  color: var(--text-color);
   text-decoration: none;
   z-index: 1;
   overflow: hidden;
-  transition: 0.5s;
+
 }
+
 
 
 /*contacts*/
@@ -671,6 +661,7 @@ education-row .education-column {
 
 .footer-text p {
   font-size: 1.6rem;
+
 }
 
 
@@ -766,10 +757,10 @@ education-row .education-column {
     width: 100%;
     padding: 1rem 4%;
     background: var(--bg-color);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .2);
     z-index: 1;
-    transition: 0.25s ease;
-    transition-delay: 0.25s;
+    transition: .25s ease;
+    transition-delay: .25s;
   }
 
   .navbar.active {
@@ -882,6 +873,7 @@ education-row .education-column {
     font-size: 5rem;
   }
 }
+
 
 /*keyframes*/
 
