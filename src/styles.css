@@ -85,7 +85,7 @@ body {
 }
 
 #menu-icon {
-  position: relative;
+
   font-size: 3.6rem;
   color: var(--aux-color);
   cursor: pointer;
@@ -539,8 +539,10 @@ education-row .education-column {
 
 .projects .galery .proyect .overlay p {
   margin-bottom: 15px;
+  font-size:small;
   transition: 1s;
   color: var(--text-color);
+  padding: 1rem;
 
 }
 
@@ -663,7 +665,6 @@ education-row .education-column {
   font-size: 1.6rem;
 
 }
-
 
 .footer-text p span {
  color: var(--aux-color);
@@ -797,13 +798,13 @@ education-row .education-column {
 
   .navbar.active a {
     transform: translateX(0);
-    transition-delay: 0.25s;
+    transition-delay: .25s;
   }
 
   .home-imgHover {
     pointer-events: none;
     background: var(--bg-color);
-    opacity: 0.6;
+    opacity: .6;
   }
 }
 
@@ -836,7 +837,27 @@ education-row .education-column {
     padding: 10rem 4% 5rem 5%;
   }
 
+  .contact form .input-box .input-field {
+    width: 100%;
+  }
 
+}
+
+@media (max-width: 462px) {
+  .home {
+    justify-content: center;
+  }
+
+  .home-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-content h1 {
+    font-size: 5rem;
+  }
 }
 
 
