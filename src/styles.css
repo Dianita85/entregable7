@@ -756,6 +756,7 @@ span {
   }
 }
 
+
 @media (max-width: 520px) {
   html {
     font-size: 50%;
@@ -776,8 +777,9 @@ span {
   }
 }
 
-@media (max-width: 371px) {
-  .home-content h1 {
+
+@media (max-width: 462px){
+  .home-content h1{
     font-size: 5.2rem;
   }
 
@@ -785,24 +787,42 @@ span {
     width: 100%;
   }
 
-  #menu-icon {
-    display: block;
+  .footer {
+    flex-direction: column-reverse;
+  }
+
+  .footer p {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .home-imgHover {
+    width: 20px;
+    height: 20px;
+
   }
 }
 
-@media (max-width: 240px) {
+
+@media (max-width: 350px) {
+  .home {
+    justify-content: center;
+  }
+
+  .home-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
   .home-content h1 {
-    font-size: 5.2rem;
+    font-size: 5rem;
   }
 
-  .contact form .input-box .input-field {
-    width: 100%;
-  }
 
-  #menu-icon {
-    display: block;
-  }
 }
+
 
 /*skills*/
 
