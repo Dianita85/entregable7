@@ -714,28 +714,22 @@ span {
 
   .navbar {
     position: absolute;
-    top: 100%;
+    top: 90%;
     left: -100%;
-    right: -100%;
-    width: 100%;
+    width: 90%;
     padding: 1rem 4%;
     background-color: var(--aux-color);
     z-index: 1;
-    justify-content: center;
-    align-items: center;
 
   }
 
   .navbar.active {
-    left: 70;
+    left: 80%;
     transition-delay: 0s;
-    background: var(--aux-color);
   }
 
   .navbar.active .active-nav {
     transition-delay: .25s;
-    left: 0;
-    background: var(--aux-color);
   
   }
 
