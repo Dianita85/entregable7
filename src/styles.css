@@ -716,9 +716,11 @@ span {
     position: absolute;
     top: 90%;
     left: -100%;
+    right: -100%;
     width: 90%;
     padding: 1rem 4%;
     background-color: var(--aux-color);
+
     z-index: 1;
 
   }
@@ -750,7 +752,7 @@ span {
   .home-imgHover {
     pointer-events: none;
     background: var(--bg-color);
-    opacity: 0.6;
+    opacity: 0;
   }
 }
 
@@ -775,6 +777,20 @@ span {
 }
 
 @media (max-width: 371px) {
+  .home-content h1 {
+    font-size: 5.2rem;
+  }
+
+  .contact form .input-box .input-field {
+    width: 100%;
+  }
+
+  #menu-icon {
+    display: block;
+  }
+}
+
+@media (max-width: 240px) {
   .home-content h1 {
     font-size: 5.2rem;
   }
